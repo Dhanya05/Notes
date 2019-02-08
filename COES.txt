@@ -1,0 +1,35 @@
+This chapter considers the way programs are executed in a computer from the machine instruction set viewpoint.
+Chapter 1 introduced the general concept that both program instructions and data operands are stored
+in the memory. In this chapter, we discuss how instructions are composed and study the ways in which sequences
+of instructions are brought from the memory into the processor and executed to perform a given task.
+The addressing methods that are commonly used for accessing operands in memory locations and processor
+registers are also presented.
+The emphasis here is on basic concepts. We use a generic style to describe machine instructions and
+operand addressing methods that are typical of those found in commercial processors. A sufficient number
+of instructions and addressing methods are introduced to enable us to present complete, realistic programs
+for simple tasks. These generic programs are specified at the assembly-language level, where machine
+instructions and operand addressing information are represented by symbolic names. A complete instruction
+set, including operand addressing methods, is often referred to as the instruction set architecture (ISA) of
+a processor. For the discussion of basic concepts in this chapter, it is not necessary to define a complete
+instruction set, and we will not attempt to do so. Instead, we will present enough examples to illustrate the
+capabilities of a typical instruction set.
+The concepts introduced in this chapter and in Chapter 3, which deals with input/output techniques, are
+essential for understanding the functionality of computers. Our choice of the generic style of presentation
+makes the material easy to read and understand. Also, this style allows a general discussion that is not
+constrained by the characteristics of a particular processor.
+Since it is interesting and important to see how the concepts discussed are implemented in a real computer,
+we supplement our presentation in Chapters 2 and 3 with four examples of popular commercial processors.
+These processors are presented in Appendices B to E. Appendix B deals with the Nios II processor from Altera
+Corporation. Appendix C presents the ColdFire processor from Freescale Semiconductor, Inc. Appendix D
+discusses the ARM processor from ARM Ltd. Appendix E presents the basic architecture of processors
+made by Intel Corporation. The generic programs in Chapters 2 and 3 are presented in terms of the specific
+instruction sets in each of the appendices.
+The reader can choose only one processor and study the material in the corresponding appendix to get
+an appreciation for commercial ISA design. However, knowledge of the material in these appendices is not
+essential for understanding the material in the main body of the book.
+The vast majority of programs are written in high-level languages such as C, C++, or Java. To execute a
+high-level language program on a processor, the program must be translated into the machine language for that
+processor, which is done by a compiler program. Assembly language is a readable symbolic representation
+of machine language. In this book we make extensive use of assembly language, because this is the best way
+to describe how computers work.
+We will begin the discussion in this chapter by considering how instruct
